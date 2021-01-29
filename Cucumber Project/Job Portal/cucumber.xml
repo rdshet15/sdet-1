@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.515">
+    <testcase classname="Create a new user" name="​ Post a job using details passed from the Feature file" time="18.052">
+        <system-out><![CDATA[Given Open browser with Alchemy Jobs site...................................passed
+And Go to post a job page...................................................passed
+And Fill the job details Performance6 and bangalore and sdssd and Alssdsdl activity.passed
+When Click submit...........................................................passed
+And Go to jobs page.........................................................passed
+Then Confirm job listing is shown on page Performance6......................passed
+And Close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

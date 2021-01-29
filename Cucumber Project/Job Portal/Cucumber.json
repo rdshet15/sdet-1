@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T06:06:56.172Z",
+        "line": 45,
+        "name": "​ Post a job using details passed from the Feature file",
+        "description": "",
+        "id": "create-a-new-user;​-post-a-job-using-details-passed-from-the-feature-file;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10878592100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Open browser with Alchemy Jobs site",
+            "match": {
+              "location": "stepDefinations.postingJob.open_browser_with_alchemy_jobs_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1540211400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Go to post a job page",
+            "match": {
+              "location": "stepDefinations.postingJob.go_to_post_a_job_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 704096400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Fill the job details Performance6 and bangalore and sdssd and Alssdsdl activity",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Performance6",
+                  "offset": 21
+                },
+                {
+                  "val": "bangalore",
+                  "offset": 38
+                },
+                {
+                  "val": "sdssd",
+                  "offset": 52
+                },
+                {
+                  "val": "Alssdsdl activity",
+                  "offset": 62
+                }
+              ],
+              "location": "stepDefinations.postingJob.read_job_information_from_the_feature_file_table_and_fill_in_the_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1630692800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click submit",
+            "match": {
+              "location": "stepDefinations.postingJob.click_submit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 817560500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to jobs page",
+            "match": {
+              "location": "stepDefinations.postingJob.go_to_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 620341700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Confirm job listing is shown on page Performance6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Performance6",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinations.postingJob.confirm_job_listing_is_shown_on_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1522507800,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinations.CloseBrowser.closebrowser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@JobsActivity1"
+          },
+          {
+            "name": "@Posting_job_using_examples_parameterization"
+          }
+        ]
+      }
+    ],
+    "name": "Create a new user",
+    "description": "",
+    "id": "create-a-new-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/JobsActivity1.feature",
+    "tags": [
+      {
+        "name": "@JobsActivity1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
